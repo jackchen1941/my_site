@@ -37,6 +37,7 @@ function getSidebar() {
 
 export default defineConfig({
   title: "我的自动化笔记",
+  ignoreDeadLinks: true, // 添加这一行，允许存在死链
   themeConfig: {
     sidebar: getSidebar() // 调用自动生成函数
   }
